@@ -34,8 +34,8 @@ The Intruder Detection System operates through a series of well-coordinated modu
 **🧩 Step-by-Step Workflow**:
 
   1. **Live Video Capture**
-    - The system continuously streams video from a connected camera.
-    - Each frame is processed in real time by the backend running on FastAPI.
+     - The system continuously streams video from a connected camera.
+     - Each frame is processed in real time by the backend running on FastAPI.
 
   2. **Face Detection & Preprocessing**:
     - Using OpenCV or a similar vision library, faces are detected within the frame.
