@@ -1,7 +1,7 @@
 # Intruder-Detection
 
 ## 🚀 Overview
-The Intruder Detection System is an advanced AI-powered security solution designed to detect, identify, and alert against unauthorized intrusions in real time. By integrating Convolutional Neural Networks (CNNs) for facial recognition and multi-channel notifications, it offers a powerful, automated, and intelligent layer of protection for modern surveillance environments.
+ The Intruder Detection System is an advanced AI-powered security solution designed to detect, identify, and alert against unauthorized intrusions in real time. By integrating Convolutional Neural Networks (CNNs) for facial recognition and multi-channel notifications, it offers a powerful, automated, and intelligent layer of protection for modern surveillance environments.
 
 ## Repository
 This project is hosted on GitHub: [Intruder-Detection](https://github.com/Karri001/Intruder-Detection)
@@ -29,7 +29,7 @@ This project is hosted on GitHub: [Intruder-Detection](https://github.com/Karri0
    - Re-notification feature for continuous presence detection (if the intruder remains in view).
 
 ## ⚙️ How It Works
-The Intruder Detection System operates through a series of well-coordinated modules that work together in real time to detect, verify, and alert about unauthorized individuals.
+ The Intruder Detection System operates through a series of well-coordinated modules that work together in real time to detect, verify, and alert about unauthorized individuals.
 
 **🧩 Step-by-Step Workflow**:
 
