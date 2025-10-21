@@ -6,12 +6,12 @@ import threading
 TWILIO_SID = "AC3605484f3b77291bcf781321b17dc08b"
 TWILIO_AUTH_TOKEN = "4e930a2225209b72769d765f25396ef0"
 TWILIO_PHONE_NUMBER = "+13512081418"
-OWNER_PHONE_NUMBER = "+919573911567"
+OWNER_PHONE_NUMBER = "your number"
 
 # Email Configuration
-EMAIL_SENDER = "sudhakarri567@gmail.com"
+EMAIL_SENDER = #sender email
 EMAIL_PASSWORD = "avam czjf kwcy nfvp"
-EMAIL_RECEIVER = "sudhakarri597@gmail.com"
+EMAIL_RECEIVER = #receiver email
 
 def send_sms():
     try:
