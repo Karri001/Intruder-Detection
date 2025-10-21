@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Intruder Detection System</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white">
+  <div class="max-w-3xl mx-auto py-10">
+    <h1 class="text-3xl font-bold mb-6">👁️ Intruder Detection Dashboard</h1>
+
+    <div class="bg-gray-800 p-6 rounded-xl shadow-md space-y-4">
+      <div>
+        <label class="block mb-2">Train New Person:</label>
+        <input id="personName" type="text" placeholder="Enter name" class="p-2 rounded w-full text-black" />
+        <button onclick="trainPerson()" class="bg-blue-500 mt-2 px-4 py-2 rounded hover:bg-blue-600">Train</button>
+      </div>
+
+      <div>
+        <label class="block mb-2">Delete Person:</label>
+        <input id="deleteName" type="text" placeholder="Enter name to delete" class="p-2 rounded w-full text-black" />
+        <button onclick="deletePerson()" class="bg-red-500 mt-2 px-4 py-2 rounded hover:bg-red-600">Delete</button>
+      </div>
+
+      <div class="flex gap-4 mt-4">
+        <button onclick="startDetection()" class="bg-green-500 px-4 py-2 rounded hover:bg-green-600">Start Detection</button>
+        <button onclick="stopDetection()" class="bg-yellow-500 px-4 py-2 rounded hover:bg-yellow-600">Stop Detection</button>
+      </div>
+
+      <div id="output" class="mt-6 text-sm text-gray-300"></div>
+    </div>
+  </div>
+
+  <script>
+    async function trainPerson() {
+      const name = document.getElementById("personName").value;
+      const form = new FormData();
+      form.append("name", name);
+      const res = await fetch("http://localhost:8000/train/", { method: "POST", body: form });
+      const data = await res.json();
+      document.getElementById("output").innerText = data.message;
+    }
+
+    async function deletePerson() {
+      const name = document.getElementById("deleteName").value;
+      const form = new FormData();
+      form.append("name", name);
+      const res = await fetch("http://localhost:8000/delete/", { method: "POST", body: form });
+      const data = await res.json();
+      document.getElementById("output").innerText = data.message;
+    }
+
+    async function startDetection() {
+      const res = await fetch("http://localhost:8000/start_detection/", { method: "POST" });
+      const data = await res.json();
+      document.getElementById("output").innerText = data.message;
+    }
+
+    async function stopDetection() {
+      const res = await fetch("http://localhost:8000/stop_detection/", { method: "POST" });
+      const data = await res.json();
+      document.getElementById("output").innerText = data.message;
+    }
+  </script>
+</body>
+</html>
