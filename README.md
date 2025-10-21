@@ -9,24 +9,24 @@ This project is hosted on GitHub: [Intruder-Detection](https://github.com/Karri0
 ## 🧠 Key Features
 
 **🎯 Smart Facial Recognition**: 
-  - Uses CNN-based face embeddings to compare live video frames with authorized personnel.
-  - Individuals with a similarity score < 0.6 are classified as intruders.
-  - Pre-registered faces are explicitly excluded from intruder alerts.
+   - Uses CNN-based face embeddings to compare live video frames with authorized personnel.
+   - Individuals with a similarity score < 0.6 are classified as intruders.
+   - Pre-registered faces are explicitly excluded from intruder alerts.
 
 **⚡ Real-Time Processing**:
-  - Built with FastAPI, ensuring low-latency video frame analysis and rapid response times.
+   - Built with FastAPI, ensuring low-latency video frame analysis and rapid response times.
 
 **💻 Intuitive Frontend**:
-  - A clean HTML-based dashboard for live monitoring, system control, and event review.
+   - A clean HTML-based dashboard for live monitoring, system control, and event review.
 
 **💾 Efficient Data Management**:
-  - Authorized user embeddings stored in a .pkl file.
-  - Profiles, access logs, and event data managed through SQLite for simplicity and reliability.
+   - Authorized user embeddings stored in a .pkl file.
+   - Profiles, access logs, and event data managed through SQLite for simplicity and reliability.
 
 **📲 Multi-Channel Alerts**:
-  - SMS notifications powered by Twilio API.
-  - Email alerts with a captured PDF snapshot of the intruder.
-  - Re-notification feature for continuous presence detection (if the intruder remains in view).
+   - SMS notifications powered by Twilio API.
+   - Email alerts with a captured PDF snapshot of the intruder.
+   - Re-notification feature for continuous presence detection (if the intruder remains in view).
 
 ## How It Works
 1. **User Authentication**: 
