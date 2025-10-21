@@ -28,24 +28,44 @@ This project is hosted on GitHub: [Intruder-Detection](https://github.com/Karri0
    - Email alerts with a captured PDF snapshot of the intruder.
    - Re-notification feature for continuous presence detection (if the intruder remains in view).
 
-## How It Works
-1. **User Authentication**: 
-   - Users sign up or log in using their email and password.
-   - The system verifies credentials (stored securely in MongoDB) and creates a session using tokens.
-2. **Chat Interface**: 
-   - Once logged in, users access the chat screen built with React.
-   - They can send messages to the chatbot through a simple, responsive UI.
-3. **Backend Processing**: 
-   - Each message is sent from the frontend to the Python backend (Flask/FastAPI).
-   - The backend forwards the user’s input to Ollama, which serves as the AI “brain.”
-4. **Ollama Response Generation**: 
-   - Ollama processes the input using its local large language model.
-   - It generates a natural, empathetic reply suitable for mental health support conversations.
-5. **Chat History Management**: 
-   - The backend stores both user messages and bot replies in MongoDB.
-   - When users return, the chatbot loads their previous chat history for context and continuity.
-6. **Optional Password Recovery**: 
-   - If a user forgets their password, a secure token or email-based reset process is triggered.
+## ⚙️ How It Works
+The Intruder Detection System operates through a series of well-coordinated modules that work together in real time to detect, verify, and alert about unauthorized individuals.
+**🧩 Step-by-Step Workflow**:
+  1. Live Video Capture
+    -The system continuously streams video from a connected camera.
+    -Each frame is processed in real time by the backend running on FastAPI.
+
+  2. Face Detection & Preprocessing
+    -Using OpenCV or a similar vision library, faces are detected within the frame.
+    -Each detected face is cropped, aligned, and normalized to prepare it for embedding extraction.
+     
+  3. Face Embedding Generation (CNN Model)
+    -A Convolutional Neural Network (CNN) converts the processed face into a 128-dimensional embedding vector — a unique numerical representation of the face.
+    -This embedding is compared to the database of authorized personnel embeddings stored in a .pkl file.
+
+  4. Identity Verification
+    -The system calculates a similarity score (e.g., cosine similarity) between the detected face and each authorized embedding.
+    -If the highest similarity < 0.6, the person is classified as an intruder.
+    -If the face matches a registered embedding, the system marks the person as authorized and skips alerting.
+
+  5. Intruder Classification & Logging
+    -Once an intruder is detected:
+       -Their snapshot is saved locally.
+       -Event details (timestamp, location, similarity score, image path) are stored in an SQLite database for record keeping.
+
+  6. Multi-Channel Alerting
+    -The system immediately triggers alerts through:
+       -📩 Email — A detailed report containing an attached PDF snapshot of the intruder.
+       -📱 SMS — A concise text notification sent via Twilio API.
+       -A re-notification mechanism re-alerts security staff if the same intruder remains visible for an extended duration.
+     
+  7. Frontend Interaction
+    -The HTML dashboard allows users to:
+       -View live video streams.
+       -Monitor detection logs.
+       -Manage authorized personnel profiles.
+       -Review and download captured intruder reports.
+
 
 ## Setup and Installation
 Follow these steps to set up the project:
