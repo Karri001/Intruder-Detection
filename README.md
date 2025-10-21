@@ -118,8 +118,10 @@ Follow these steps to set up the project:
 <img width="1920" height="1080" alt="Screenshot (360)" src="https://github.com/user-attachments/assets/7f76dcbd-b0a2-4c7f-b540-b0e6a6b0e363" />
 
 ### Detection
+**Detection Before Deleting User** 
 <img width="1920" height="1080" alt="Screenshot (361)" src="https://github.com/user-attachments/assets/c9a12986-d70c-4098-8735-4ab8c6089af1" />
 <img width="1920" height="1080" alt="Screenshot (362)" src="https://github.com/user-attachments/assets/dbffcacf-f8dc-46bc-8115-251acc19e38a" />
+**Detection After Deleting User**
 <img width="1920" height="1080" alt="Screenshot (363)" src="https://github.com/user-attachments/assets/a4310e7f-835c-48e9-ad58-d1d7196ed392" />
 
 ### SMS & EMAIL Alert
