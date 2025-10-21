@@ -6,23 +6,24 @@ The Intruder Detection System is an advanced AI-powered security solution design
 ## Repository
 This project is hosted on GitHub: [Intruder-Detection](https://github.com/Karri001/Intruder-Detection)
 
-##🧠 Key Features
-**🎯 Smart Facial Recognition**: 
+## 🧠 Key Features
+
+** 🎯 Smart Facial Recognition**: 
   - Uses CNN-based face embeddings to compare live video frames with authorized personnel.
   - Individuals with a similarity score < 0.6 are classified as intruders.
   - Pre-registered faces are explicitly excluded from intruder alerts.
 
-**⚡ Real-Time Processing**:
+** ⚡ Real-Time Processing**:
   - Built with FastAPI, ensuring low-latency video frame analysis and rapid response times.
 
-**💻 Intuitive Frontend**:
+** 💻 Intuitive Frontend**:
   - A clean HTML-based dashboard for live monitoring, system control, and event review.
 
-**💾 Efficient Data Management**:
+** 💾 Efficient Data Management**:
   - Authorized user embeddings stored in a .pkl file.
   - Profiles, access logs, and event data managed through SQLite for simplicity and reliability.
 
-**📲 Multi-Channel Alerts**:
+** 📲 Multi-Channel Alerts**:
   - SMS notifications powered by Twilio API.
   - Email alerts with a captured PDF snapshot of the intruder.
   - Re-notification feature for continuous presence detection (if the intruder remains in view).
