@@ -128,17 +128,13 @@ Follow these steps to set up the project:
 <img width="1920" height="1080" alt="Screenshot (365)" src="https://github.com/user-attachments/assets/459fa406-7673-41cb-b61b-0818d0742946" />
 
 
-### Video Demonstration
-https://github.com/user-attachments/assets/7356f82d-3bb9-4ece-a95c-cb65af8f6e07
-
-
-
-## Future Enhancements
-- Allow users to chat in different languages by integrating multilingual models or translation APIs.
-- Build a cross-platform mobile app using React Native or Flutter for on-the-go mental health support.
-- Add speech-to-text and text-to-speech capabilities so users can talk and listen instead of typing.
-- Improve the UI with theme switching, larger fonts, and accessibility options for better user experience.
-- Implement end-to-end encryption and anonymization to enhance user trust and data security.
+## 🚀 Future Enhancements
+   -Integrate liveness detection to prevent spoofing using photos or videos.
+   -Support for multi-camera input and centralized monitoring.
+   -Add cloud storage (AWS / Google Cloud) for storing event logs and images.
+   -Implement a mobile app for instant push notifications.
+   -Introduce smart lock and alarm integration for automated physical response.
+   -Upgrade to advanced deep learning models like FaceNet or ArcFace for higher accuracy.
 
 ## Contributions
 Contributions are welcome! Feel free to fork the repository and submit pull requests with improvements or additional features.
