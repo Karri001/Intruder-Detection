@@ -69,7 +69,7 @@ This project is hosted on GitHub: [Intruder-Detection](https://github.com/Karri0
         - Review and download captured intruder reports.
 
 
-## Setup and Installation
+## 🔧 Setup and Installation
 Follow these steps to set up the project:
 
 ### Prerequisites
