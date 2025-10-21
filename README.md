@@ -107,13 +107,13 @@ Follow these steps to set up the project:
 ![Home Interface](https://github.com/user-attachments/assets/54ca3d07-0e4e-43ae-bd6e-90fe95317d07)
 
 ### Register Users
-  <img width="1920" height="1080" alt="Screenshot (355)" src="https://github.com/user-attachments/assets/c886e056-36f9-447f-99e9-d3e2277399fb" />
+   -<img width="1920" height="1080" alt="Screenshot (355)" src="https://github.com/user-attachments/assets/c886e056-36f9-447f-99e9-d3e2277399fb" />
 
 
-  <img width="1920" height="1080" alt="Screenshot (356)" src="https://github.com/user-attachments/assets/f50942c2-8a57-4b6b-9cc5-3db025dfdf84" />
+   -<img width="1920" height="1080" alt="Screenshot (356)" src="https://github.com/user-attachments/assets/f50942c2-8a57-4b6b-9cc5-3db025dfdf84" />
 
 
-  <img width="1920" height="1080" alt="Screenshot (357)" src="https://github.com/user-attachments/assets/8d316810-7709-45d2-957d-8e569ccfeab0" />
+   -<img width="1920" height="1080" alt="Screenshot (357)" src="https://github.com/user-attachments/assets/8d316810-7709-45d2-957d-8e569ccfeab0" />
 
 
 ### Home Interface (After Login)
