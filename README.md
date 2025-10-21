@@ -117,8 +117,13 @@ Follow these steps to set up the project:
 <img width="1920" height="1080" alt="Screenshot (359)" src="https://github.com/user-attachments/assets/190fbae6-fd3e-4ed2-aab4-14c4b31fe62d" />
 <img width="1920" height="1080" alt="Screenshot (360)" src="https://github.com/user-attachments/assets/7f76dcbd-b0a2-4c7f-b540-b0e6a6b0e363" />
 
-### ChatBot
-![ChatBot](https://github.com/user-attachments/assets/c773f4b0-cf7c-4cbc-b75f-106826d44ca8)
+### Detection
+<img width="1920" height="1080" alt="Screenshot (361)" src="https://github.com/user-attachments/assets/c9a12986-d70c-4098-8735-4ab8c6089af1" />
+<img width="1920" height="1080" alt="Screenshot (362)" src="https://github.com/user-attachments/assets/dbffcacf-f8dc-46bc-8115-251acc19e38a" />
+<img width="1920" height="1080" alt="Screenshot (363)" src="https://github.com/user-attachments/assets/a4310e7f-835c-48e9-ad58-d1d7196ed392" />
+
+### SMS & EMAIL Alert
+<img width="1920" height="1080" alt="Screenshot (365)" src="https://github.com/user-attachments/assets/459fa406-7673-41cb-b61b-0818d0742946" />
 
 
 ### Video Demonstration
