@@ -79,36 +79,27 @@ Follow these steps to set up the project:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Karri001/Mental-Health-Chatbot.git
-   cd Mental-Health-Chatbot
+   git clone https://github.com/Karri001/Intruder-Detection.git
+   cd Intruder-Detection
    ```
 2. Install required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
    
-3. Download Ollama:
-   - Ollama can be downloaded from this site (https://ollama.com/download)
-4. Open Three Different Terminals with the Project Folder location and Open the Three folders Shown Below in Those Terminals to Run the Application :
-   - To Start Chatbot of the Application
-    
-      ```bash
-      cd Cbot
-      python app.py
+3. Start Application:
+   - Open Terminal with Project Directory and Use the below commands to Activate dlib310 environment:
+        ```bash
+      cd Intruder-Detection
+      dlib310/Scripts/Activate
       ```
-   - To Start Frontend of the Application
-    
-      ```bash
-      cd frontend
-      npm start
-      ```
-   - To Start Backend of the Application
-    
-      ```bash
+   - Now navigate to the root backend folder to run the Application use below commands:
+        ```bash
+      cd Scripts
       cd backend
-      npm start
+      python main.py
       ```
-5. The Application will Automatically launch itself after the Frontend has been launched and then the User can start Interacting with the ChatBot.
+ 4. After this the User has to manually run the index.html file so that the interface can pop up and various actions like Register face,Delete face ,Start and Stop Detection etc actions can be performed
 
 
 ## Screenshots
