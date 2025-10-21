@@ -31,35 +31,35 @@ This project is hosted on GitHub: [Intruder-Detection](https://github.com/Karri0
 ## ⚙️ How It Works
 The Intruder Detection System operates through a series of well-coordinated modules that work together in real time to detect, verify, and alert about unauthorized individuals.
 **🧩 Step-by-Step Workflow**:
-  1. Live Video Capture
+  1. **Live Video Capture**
     - The system continuously streams video from a connected camera.
     - Each frame is processed in real time by the backend running on FastAPI.
 
-  2. Face Detection & Preprocessing
+  2. **Face Detection & Preprocessing**:
     - Using OpenCV or a similar vision library, faces are detected within the frame.
     - Each detected face is cropped, aligned, and normalized to prepare it for embedding extraction.
      
-  3. Face Embedding Generation (CNN Model)
+  3. **Face Embedding Generation (CNN Model)**:
     - A Convolutional Neural Network (CNN) converts the processed face into a 128-dimensional embedding vector — a unique numerical representation of the face.
     - This embedding is compared to the database of authorized personnel embeddings stored in a .pkl file.
 
-  4. Identity Verification
+  4. **Identity Verification**:
     - The system calculates a similarity score (e.g., cosine similarity) between the detected face and each authorized embedding.
     - If the highest similarity < 0.6, the person is classified as an intruder.
     - If the face matches a registered embedding, the system marks the person as authorized and skips alerting.
 
-  5. Intruder Classification & Logging
+  5. **Intruder Classification & Logging**:
     - Once an intruder is detected:
        - Their snapshot is saved locally.
        - Event details (timestamp, location, similarity score, image path) are stored in an SQLite database for record keeping.
 
-  6. Multi-Channel Alerting
+  6. **Multi-Channel Alerting**:
     - The system immediately triggers alerts through:
        - 📩 Email — A detailed report containing an attached PDF snapshot of the intruder.
        - 📱 SMS — A concise text notification sent via Twilio API.
        - A re-notification mechanism re-alerts security staff if the same intruder remains visible for an extended duration.
      
-  7. Frontend Interaction
+  7. **Frontend Interaction**:
     - The HTML dashboard allows users to:
        - View live video streams.
        - Monitor detection logs.
