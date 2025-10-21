@@ -1,6 +1,6 @@
 # Intruder-Detection
 
-## Overview
+## 🚀 Overview
 The Intruder Detection System is an advanced AI-powered security solution designed to detect, identify, and alert against unauthorized intrusions in real time. By integrating Convolutional Neural Networks (CNNs) for facial recognition and multi-channel notifications, it offers a powerful, automated, and intelligent layer of protection for modern surveillance environments.
 
 ## Repository
