@@ -103,17 +103,15 @@ Follow these steps to set up the project:
 
 
 ## Screenshots
-### Home Interface (Befor Login)
-![Home Interface (Befor Login)](https://github.com/user-attachments/assets/2377fe66-af50-4ecd-8315-b22eac9aec46)
+### Home Interface 
+![Home Interface](https://github.com/user-attachments/assets/54ca3d07-0e4e-43ae-bd6e-90fe95317d07)
 
+### Register Users
+<img width="1920" height="1080" alt="Screenshot (355)" src="https://github.com/user-attachments/assets/c886e056-36f9-447f-99e9-d3e2277399fb" />
 
-### Login/SignUp Page
- - Login Page
-  
- ![Login Page](https://github.com/user-attachments/assets/56e2236a-e121-4816-9565-c86585ad4020)
- - SignUp Page
-   
- ![SignUp Page](https://github.com/user-attachments/assets/6358af57-1b66-46ec-9968-11895ac4cae0)
+<img width="1920" height="1080" alt="Screenshot (356)" src="https://github.com/user-attachments/assets/f50942c2-8a57-4b6b-9cc5-3db025dfdf84" />
+
+<img width="1920" height="1080" alt="Screenshot (357)" src="https://github.com/user-attachments/assets/8d316810-7709-45d2-957d-8e569ccfeab0" />
 
 
 ### Home Interface (After Login)
