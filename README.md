@@ -107,18 +107,15 @@ Follow these steps to set up the project:
 ![Home Interface](https://github.com/user-attachments/assets/54ca3d07-0e4e-43ae-bd6e-90fe95317d07)
 
 ### Register Users
-   -<img width="1920" height="1080" alt="Screenshot (355)" src="https://github.com/user-attachments/assets/c886e056-36f9-447f-99e9-d3e2277399fb" />
+   <img width="1920" height="1080" alt="Screenshot (355)" src="https://github.com/user-attachments/assets/c886e056-36f9-447f-99e9-d3e2277399fb" />
+   <img width="1920" height="1080" alt="Screenshot (356)" src="https://github.com/user-attachments/assets/f50942c2-8a57-4b6b-9cc5-3db025dfdf84" />
+   <img width="1920" height="1080" alt="Screenshot (357)" src="https://github.com/user-attachments/assets/8d316810-7709-45d2-957d-8e569ccfeab0" />
 
 
-   -<img width="1920" height="1080" alt="Screenshot (356)" src="https://github.com/user-attachments/assets/f50942c2-8a57-4b6b-9cc5-3db025dfdf84" />
-
-
-   -<img width="1920" height="1080" alt="Screenshot (357)" src="https://github.com/user-attachments/assets/8d316810-7709-45d2-957d-8e569ccfeab0" />
-
-
-### Home Interface (After Login)
-![Home Interface (After Login)](https://github.com/user-attachments/assets/7cf5af7f-afe9-48fe-b6a6-ee782cdaab28)
-
+### Delete Users
+<img width="1920" height="1080" alt="Screenshot (358)" src="https://github.com/user-attachments/assets/04c7f26b-0fc4-4ac0-9acd-4322f090da65" />
+<img width="1920" height="1080" alt="Screenshot (359)" src="https://github.com/user-attachments/assets/190fbae6-fd3e-4ed2-aab4-14c4b31fe62d" />
+<img width="1920" height="1080" alt="Screenshot (360)" src="https://github.com/user-attachments/assets/7f76dcbd-b0a2-4c7f-b540-b0e6a6b0e363" />
 
 ### ChatBot
 ![ChatBot](https://github.com/user-attachments/assets/c773f4b0-cf7c-4cbc-b75f-106826d44ca8)
