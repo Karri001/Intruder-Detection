@@ -30,7 +30,9 @@ This project is hosted on GitHub: [Intruder-Detection](https://github.com/Karri0
 
 ## ⚙️ How It Works
 The Intruder Detection System operates through a series of well-coordinated modules that work together in real time to detect, verify, and alert about unauthorized individuals.
+
 **🧩 Step-by-Step Workflow**:
+
   1. **Live Video Capture**
     - The system continuously streams video from a connected camera.
     - Each frame is processed in real time by the backend running on FastAPI.
